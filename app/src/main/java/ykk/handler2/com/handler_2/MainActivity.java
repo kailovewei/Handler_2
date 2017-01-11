@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     private TextView textView;
     private Button button;
-    private  static  Handler handler;
+    private  Handler handler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
